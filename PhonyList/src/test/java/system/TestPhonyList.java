@@ -12,6 +12,7 @@ public class TestPhonyList {
     /*
      * Helper method to create lists.
      */
+    
     private PhonyList<Integer> list(Integer... content) {
         PhonyList<Integer> list = new PhonyList<>();
         for (Integer i : content)
